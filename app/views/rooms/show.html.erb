@@ -56,7 +56,7 @@
                     <input id="copy-code" value="<%= @room.access_code %>" type="hidden">
                     <button id="copy-access" class="btn btn-secondary btn-block" onclick="copyAccess()">
                       <i class="fas fa-copy mr-1"></i>
-                      <%= "room.copy_tulliball grr..." %>
+                      <%= t("room.copy_access") %>
                     </button>
                   <% end %>
                   <% if Rails.configuration.enable_google_calendar_button %>
