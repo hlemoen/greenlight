@@ -138,8 +138,8 @@ nb:
   cookies:
     cookie_info: Cookies Informasjonskapsler hjelper oss med å levere tjenestene våre. Ved å bruke våre tjenester godtar du vår bruk av cookies.
     cookie_button: Enig
-  copied: pokker
-  copy: jaja
+  copied: Kopiert
+  copy: Kopier
   date:
     month_names: [~, januar, februar, mars, april, mai, juni, juli, august, september, oktober, november, desember]
   default_admin: "Du bruker fortsatt standardpassordet for denne kontoen. Klikk <a href=\"%{edit_link}\">here</a> for å endre det"
@@ -492,3 +492,5 @@ nb:
     signin: Logg deg på for å få tilgang til kontoen din.
     title: Bekreft e-posten din
     verification: Bekreftelse
+  invites:
+  invite_more: Inviter flere

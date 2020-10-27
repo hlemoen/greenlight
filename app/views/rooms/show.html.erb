@@ -52,6 +52,10 @@
                   </button>
                 </div>
                 <div class="col-sm-6 pl-0 mt-2">
+                  <a href="http://calinv.herokuapp.com/loginFlow/index" id="smsEmailInvite" class="btn btn-primary btn-block" onclick="">
+                    <i class="fas fa-copy mr-1"></i>
+                    <%= t("invite_more") %>
+                  </a>
                   <% if @room.access_code.present? %>
                     <input id="copy-code" value="<%= @room.access_code %>" type="hidden">
                     <button id="copy-access" class="btn btn-secondary btn-block" onclick="copyAccess()">
