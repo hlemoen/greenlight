@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="col-sm-6 pl-0 mt-2">
-                  <a href="http://localhost:8000/loginFlow/createNewEvent" id="smsEmailInvite" class="btn btn-primary btn-block" value="<%= request.base_url + @room.invite_path %>" onclick="">
+                  <a href="http://localhost:8000/loginFlow/index?link=<%= request.base_url + @room.invite_path %>" id="smsEmailInvite" class="btn btn-primary btn-block" value="<%= request.base_url + @room.invite_path %>" onclick="">
                     <%= t("invite_more") %>
                   </a>
 
